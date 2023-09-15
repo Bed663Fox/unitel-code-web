@@ -1,3 +1,72 @@
-estilo.css
-header{background-color:black;
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 10px;
+    text-transform: capitalize;    
+}
+
+li{
+    list-style: none;
+    padding: 0 50px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.container button{
+    background-color: white;
+    border: none;
+    color:orange;
+    padding: 10px 10px;
+    border-radius: 30px;
+    border: 1px solid orange;
+    font-size: 15px;
+
+}
+
+button:hover{
+    background-color: orange;
+    color: white;
+}
+.fundo-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.cadastrar{
+    background-color: #654fa6;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 30px;
+
+}
+
+.saber{
+    color: #654fa6;
+    padding: 10px 30px;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid #654fa6;
+}
+.info-unitel{
+    display: flex;
+    flex-direction: column;
 }
